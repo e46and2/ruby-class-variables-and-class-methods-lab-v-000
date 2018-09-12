@@ -36,7 +36,7 @@
    end
    
    def self.artist_count
-     artist_count = @@artist.each_with_object(Hash.new(0)) { |artist,count| count[artist] += 1 }
+     artist_count = @@artists.each_with_object(Hash.new(0)) { |artist,count| count[artist] += 1 }
    end
    
  end

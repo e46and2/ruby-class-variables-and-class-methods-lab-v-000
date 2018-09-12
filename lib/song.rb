@@ -23,4 +23,7 @@
      genres_list
    end
    
+   def self.artist 
+     
+   end
  end

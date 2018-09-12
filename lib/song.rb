@@ -29,4 +29,5 @@
      artists_list = @@artists.uniq
      artists_list
    end
+   
  end

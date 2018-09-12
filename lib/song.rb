@@ -30,4 +30,8 @@
      artists_list
    end
    
+   def self.genre_count
+     genre_count = H
+   end
+   
  end

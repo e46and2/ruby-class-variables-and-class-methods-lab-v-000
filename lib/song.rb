@@ -32,6 +32,7 @@
    
    def self.genre_count
      genre_count = Hash.new 
+     
    end
    
  end

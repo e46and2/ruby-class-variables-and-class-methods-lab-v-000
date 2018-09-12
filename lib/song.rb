@@ -31,8 +31,7 @@
    end
    
    def self.genre_count
-     genre_count = Hash.new 
-     
+     genre_count = Hash[@@genre.map {|g| [g, 1]}]
    end
    
  end

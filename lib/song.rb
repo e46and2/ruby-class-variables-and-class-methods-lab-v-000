@@ -3,6 +3,7 @@
    
    @@count = 0 
    @@genres = []
+   @@artista = []
    
    def initialize(name, artist, genre)
      @name = name

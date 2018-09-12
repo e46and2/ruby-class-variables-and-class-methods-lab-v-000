@@ -3,7 +3,7 @@
    
    @@count = 0 
    @@genres = []
-   @@artista = []
+   @@artists = []
    
    def initialize(name, artist, genre)
      @name = name
@@ -11,6 +11,7 @@
      @genre = genre
      @@count += 1 
      @@genres << genre 
+     @@artists << artist 
    end
    
    def self.count

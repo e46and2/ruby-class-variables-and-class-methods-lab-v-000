@@ -24,7 +24,7 @@
      genres_list
    end
    
-   def self.artist 
+   def self.artists 
      artists_list = []
      artists_list = @@artists.uniq
      artists_list

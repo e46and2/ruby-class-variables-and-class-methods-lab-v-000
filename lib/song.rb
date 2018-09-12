@@ -18,7 +18,8 @@
    end
    
    def self.genres
-     genres = @@genres.uniq 
+     genres _list = [] 
+     genres_list = @@genres.uniq 
    end
    
  end

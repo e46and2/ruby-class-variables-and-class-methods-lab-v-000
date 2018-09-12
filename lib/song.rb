@@ -25,6 +25,8 @@
    end
    
    def self.artist 
-     
+     artists_list = []
+     artists_list = @@artists.uniq
+     artists_list
    end
  end

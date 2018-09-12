@@ -17,4 +17,8 @@
      @@count
    end
    
+   def self.genres
+     @@genres.each do |g| g.
+   end
+   
  end

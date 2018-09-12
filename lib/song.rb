@@ -32,6 +32,7 @@
    
    def self.genre_count
      genre_count = Hash[@@genre.map {|g| [g, 1]}]
+     genre_count = @@genre.each_with_object(Hash.new(0)) { |genre,count| count[genre] += 1 }
    end
    
  end

@@ -12,8 +12,8 @@
      genre << @@genres
    end
    
-   def count
-     puts @@count
+   def self.count
+     @@count
    end
    
  end

@@ -31,7 +31,7 @@
    end
    
    def self.genre_count
-     genre_count = H
+     genre_count = Hash.new 
    end
    
  end

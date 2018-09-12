@@ -18,7 +18,7 @@
    end
    
    def self.genres
-     @@genres.each do |g| g.
+     genres = @@genres.uniq 
    end
    
  end

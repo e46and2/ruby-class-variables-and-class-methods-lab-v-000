@@ -10,7 +10,7 @@
      @artist = artist
      @genre = genre
      @@count += 1 
-     #@genre << @@genres
+     @genre.to_s << @@genres
    end
    
    def self.count
